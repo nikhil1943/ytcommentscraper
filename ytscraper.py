@@ -36,9 +36,9 @@ def comment_threads(vidID, to_csv):
     
     return comments_list
 
-
+#videoID will be replaced by the youtube video's unique ID identified as the set of alphanumeric characters after the = symbol in the hyperlink
 def main():
-    comment_threads('KBZfnt80s54',to_csv = True)
+    comment_threads('videoID',to_csv = True)
 
 
 if __name__ == "__main__":
